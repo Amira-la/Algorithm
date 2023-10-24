@@ -1,0 +1,20 @@
+function main():
+    wordCount = 0
+    vowelCount = 0
+    sentenceLength = 0
+
+    sentence = read_sentence()
+
+    for each character in sentence:
+        if character is a letter:
+            sentenceLength++
+        if character is a vowel:
+            vowelCount++
+        if character is a space:
+            wordCount++
+
+    wordCount++
+
+    print("Number of words: ", wordCount)
+    print("Number of vowels: ", vowelCount)
+    print("Sentence length: ", sentenceLength)
